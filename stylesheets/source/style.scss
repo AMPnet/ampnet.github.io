@@ -1,0 +1,34 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import "./lib/bootstrap-4.6.0/scss/bootstrap.scss";
+
+
+/* Custom stuff */
+
+/* Variables */
+$horizontal-spacing: 6%;
+
+/* Mixins */
+@mixin animate-fastest { transition: ease-in-out .055s; }
+@mixin animate-fast { transition: ease-in-out .15s; }
+@mixin animate-slooooow { transition: ease-in-out 1.28s; }
+
+/* Custom */
+@import "typography";
+
+/* Component */
+.btn-lg {
+	@include media-breakpoint-down(lg) {
+		font-size: $font-size-base;
+		padding: $input-btn-padding-y $input-btn-padding-x;
+	}
+}
+
+/* Pages */
+@import "apx";
+@import "styleguide";
+
+.test {
+	color: red;
+}
