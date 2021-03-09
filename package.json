@@ -1,0 +1,27 @@
+{
+  "name": "ampnet-ci-landing",
+  "version": "1.0.0",
+  "description": "Landing and marketing page for AMPnet crowdinvesting platform",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "http-server",
+    "start-remote": "http-server >/dev/null 2>&1 & ngrok http 8080 && kill $!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMPnet/ampnet-ci-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMPnet/ampnet-ci-landing/issues"
+  },
+  "homepage": "https://github.com/AMPnet/ampnet-ci-landing#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "ngrok": "^3.4.0"
+  }
+}

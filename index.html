@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title"
+          content="AMPnet • Create Blockchain Powered Crowdinvesting or Crowdlending Campaigns With Fees as Low as 1%">
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+          content="Use AMPnet and set up an investment campaign in five minutes, share your project and get funded. Fund up to €25,000 for free!">
+    <meta property="og:image" content="https://i.imgur.com/mxYHrrG.png">
+    <meta property="og:url" content="https://ampnet.io">
+
+    <meta name="twitter:title"
+          content="AMPnet • Create Blockchain Powered Crowdinvesting or Crowdlending Campaigns With Fees as Low as 1%.">
+    <meta name="twitter:description"
+          content="Use AMPnet and set up an investment campaign in five minutes, share your project and get funded. Fund up to €25,000 for free!">
+    <meta name="twitter:image" content="https://i.imgur.com/mxYHrrG.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>AMPnet • Crowdinvesting Campaigns With The Lowest Fees</title>
+
+    <!-- CSS IMPORTS -->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./lib/flickity/flickity.min.css"/>
+    <link rel="stylesheet" href="./app.css">
+    <!-- /CSS IMPORTS -->
+    <link rel="icon" type="image/png" href="./favicon.ico">
+    <!-- JS IMPORTS -->
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?thirdparty=1&always=1"></script>
+    <!-- /JS IMPORTS -->
+    <script type="text/javascript" src="./lib/flickity/flickity.min.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3F0KN6XPN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-T3F0KN6XPN');
+    </script>
+</head>
+
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img id="nav-logo" src="./assets/images/logo-amp.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbar-content" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#examples">Examples</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#what-is-ampnet">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://docs.ampnet.io" target="_blank" rel="noopener noreferrer">
+                        Developers 🔗
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ampnet.medium.com" target="_blank" rel="noopener noreferrer">
+                        Blog 🔗
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- /NAVBAR -->
+
+<!-- HERO -->
+<div id="hero">
+    <div class="container">
+        <div class="row flex-row-reverse">
+            <div class="col-md-5">
+                <img id="demo-image" class="hero-content-top-margin" src="./assets/images/MacBook.png" alt=""
+                     srcset="">
+            </div>
+            <div class="col-md-7">
+                <div class="hero-content-top-margin hero-text-left-margin">
+                    <h2 id="hero-title">
+                        Build an investment platform.
+                        In minutes, instead of months.
+                    </h2>
+                    <p id="hero-subtitle">
+                        Don't spend months or years developing an investment platform. With AMPnet, you'll get
+                        an investment & tokenization platform, integrated marketplace and a multinational
+                        legal entity — at the click of a button.
+                    <p class="hero-btn-holder">
+                        <a href="https://ampnet.typeform.com/to/x3Ft5Umx" class="btn btn-primary px-4 py-2 mr-3"
+                           target="_blank" rel="noopener noreferrer">
+                            Get Started
+                        </a>
+                        <a href="https://demo.ampnet.io/ampnet/sign_in_auto/demoadmin@ampnet.io/Demoadmin01"
+                           target="_blank" rel="noopener noreferrer"
+                           class="btn btn-primary px-4 py-2 btn-whiteout">
+                            Try Demo
+                        </a>
+                    <div class="section-content w-100 mt-5 mb-3">
+                        Already have an investing platform? Connect with AMPnet APX and gain access to thousands of
+                        investors and traders.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /HERO -->
+
+<!-- CLIENTS HEADER -->
+<div id="clients-header">
+    <div class="container">
+        <div id="clients-header-img-holder" class="row text-center py-4">
+            <div class="col-md-4">
+                <img src="./assets/images/gplogo.png" alt="" srcset="">
+            </div>
+            <div class="col-md-4">
+                <img src="./assets/images/genervestlogo.png" alt="" srcset="">
+            </div>
+            <div class="col-md-4">
+                <img src="./assets/images/wespalogo.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /CLIENTS HEADER -->
+
+<div id="examples" class="section" style="overflow-x: hidden">
+    <div data-aos="fade-top" class="container">
+        <div class="section-subtitle mb-5">
+            Check out how our clients are using AMPnet to accelerate their business
+        </div>
+        <ul class="nav nav-justified mt-auto" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                   aria-selected="true">
+                    Renewable energy
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#wespa-case" role="tab"
+                   aria-controls="contact" aria-selected="false">
+                    Commercial Real estate
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="small-business-tab" data-toggle="tab" href="#small-business" role="tab"
+                   aria-controls="contact" aria-selected="false">
+                    Small Businesses
+                </a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="section-subtitle">
+                            Greenpeace is using AMPnet to power their
+                            renewable energy investments
+                        </div>
+                        <div class="section-content mt-2">
+                            Greenpeace has been on the forefront of environmentalist
+                            movements since it's inception over fifty years ago. <br><br>
+                            With the looming threat of climate change — they've once again
+                            taken proactive action — allowing citizens to invest into renewable
+                            energy sources through their AMPnet powered online crowdinvesting
+                            platform. <br><br>
+                            This initiative, led by Greenpeace Greece — shows how AMPnet can power
+                            initiatives which are both profitable and good for the planet. <br><br>
+                            <a href="https://genervest.org" target="_blank" rel="noopener noreferrer">
+                                Check out Genervest by Greenpeace Greece 🔗
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/BndDg5GiZXI?controls=0"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="wespa-case" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="section-subtitle">
+                            WESPA Spaces is using AMPnet to give their tenants
+                            "skin in the game"
+                        </div>
+                        <div class="section-content mt-2">
+                            WESPA Office and Coworking space is a large, modern coworking and office space powered by
+                            the latest and greatest technologies. They have used AMPnet platform to crowdfund
+                            the final stages of development and share profits with their tenants. <br><br>
+                            By giving their tenants "skin in the game" — WESPA Spaces has created a nurturing
+                            environment where the users of the space have an active role in the development of the
+                            space. <br><br>
+                            <a href="https://wespa-spaces.hr" target="_blank" rel="noopener noreferrer">
+                                Check out WESPA Spaces 🔗
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img style="object-fit: fill;" class="h-100 w-100"
+                             src="https://wespa-spaces.hr/wp-content/uploads/2020/04/Prizemlje-pogled-na-tribinu-compressor-scaled.jpg"
+                             alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="small-business" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="section-subtitle">
+                            Small businesses are using AMPnet to raise expansion funds — without
+                            going to banks.
+                        </div>
+                        <div class="section-content mt-2">
+                            Many types of small and medium businesses can use AMPnet to unlock their full potential.
+                            <br><br>
+                            Raising loans from banks can be tricky — often requiring collateral that the buisness
+                            doesn't have. Instead, run a financing campaign offering micro-loans or revenue
+                            share to your investors. <br><br>
+
+                            Digital agencies, bars, restaurants, hotels, mom&pop shops, breweries & wineries,
+                            music festivals and many other capital-heavy businesses can unlock new levels of
+                            operational liquidity through AMPnet.
+                            <br><br>
+                            <a href="https://ampnet.medium.com" target="_blank" rel="noopener noreferrer">
+                                Check out article on our blog 🔗
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="w-100" src="./assets/images/RunRock.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- WHAT IS AMPNET SECTION -->
+<div class="section" id="what-is-ampnet">
+    <div class="container">
+        <div class="row" style="overflow-x: hidden">
+            <div data-aos="fade-right" class="col-md-7 left-pane">
+                <div class="section-subtitle mb-3">
+                    AMPnet is the easiest way to finance your next project &
+                    trade project shares
+                </div>
+                <div class="section-content">
+                    AMPnet is a web, iOS and Android app for running crowdinvesting and
+                    crowdlending campaigns. It runs under your own brand (your logo, your domain) and
+                    integrates easily into existing websites. <br><br>
+                    All users of the AMPnet platform get access to AMPnet APX — a central portal
+                    enabling you to co-fund projects, trade project shares and exchange documents.
+                </div>
+                <img id="what-is-image" src="./assets/images/MacBook.png" alt="" srcset="">
+            </div>
+            <div data-aos="fade-left" class="col-md-5">
+                <ul id="features-list" class=" list-unstyled">
+                    <li>
+                        <div class="h-100">
+                            <img src="./assets/images/check.png" alt="" srcset="">
+                        </div>
+                        <span class="ml-3">Modern web, iOS & Android apps</span>
+                    </li>
+                    <li>
+                        <div class="h-100">
+                            <img src="./assets/images/check.png" alt="" srcset="">
+                        </div>
+                        <span class="ml-3">Invest with EUR (IBAN), Bitcoin, Ethereum & more</span>
+                    </li>
+                    <li>
+                        <div class="h-100">
+                            <img src="./assets/images/check.png" alt="" srcset="">
+                        </div>
+                        <span class="ml-3">Investments stored on blockchain</span>
+                    </li>
+                    <li>
+                        <div class="h-100">
+                            <img src="./assets/images/check.png" alt="" srcset="">
+                        </div>
+                        <span class="ml-3">Sign contracts online</span>
+                    </li>
+                    <li>
+                        <div class="h-100">
+                            <img src="./assets/images/check.png" alt="" srcset="">
+                        </div>
+                        <span class="ml-3">KYC with ID Scanning & Facial recognition</span>
+                    </li>
+                    <li>
+                        <div class="h-100">
+                            <img src="./assets/images/check.png" alt="" srcset="">
+                        </div>
+                        <span class="ml-3">Two-factor authentication</span>
+                    </li>
+                    <li>
+                        <div class="h-100">
+                            <img src="./assets/images/check.png" alt="" srcset="">
+                        </div>
+                        <span class="ml-3">Share revenue to thousands of investors with one click.</span>
+                    </li>
+                    <div class="col-md-12 mt-5">
+                        <a href="https://ampnet.typeform.com/to/x3Ft5Umx">
+                            Get started with AMPnet 🔗
+                        </a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<!-- /WHAT IS AMPNET SECTION -->
+
+
+<div class="section padded-section">
+    <div class="container">
+        <div class="row" style="overflow-x: hidden">
+            <div data-aos="fade-right" class="col-md-6">
+                <img class="w-100" src="./assets/images/features-graphic.png" alt="">
+            </div>
+            <div data-aos="fade-left" class="col-md-6 section-offset">
+                <div class="section-subtitle">
+                    Build an advanced crowdinvesting or crowdlending platform in
+                    minutes
+                </div>
+                <div class="section-content">
+                    <div class="row mt-5 mb-3">
+                        <div class="col-md-12 d-flex flex-row">
+                            <div class="h-100">
+                                <img src="./assets/images/check.png" alt="" height="14" srcset="">
+                            </div>
+                            <span class="ml-3">
+                                Run the platform on your domain, with your logo and your color scheme.
+                            </span>
+                        </div>
+                        <div class="col-md-12 d-flex flex-row mt-3">
+                            <div class="h-100">
+                                <img src="./assets/images/check.png" alt="" height="14" srcset="">
+                            </div>
+                            <span class="ml-3">
+                                Receive payments via wire transfer or cryptocurrencies like Bitcoin, Ether and
+                                many more
+                            </span>
+                        </div>
+                        <div class="col-md-12 d-flex flex-row mt-3">
+                            <div class="h-100">
+                                <img src="./assets/images/check.png" alt="" height="14" srcset="">
+                            </div>
+                            <span class="ml-3">
+                                Onboard customers in minutes with ID scanning & facial recognition. Perform
+                                KYC/AML checks and create a legally valid digital signature for signing investment
+                                contracts.
+                            </span>
+                        </div>
+                        <div class="col-md-12 d-flex flex-row mt-3">
+                            <div class="h-100">
+                                <img src="./assets/images/check.png" alt="" height="14" srcset="">
+                            </div>
+                            <span class="ml-3">
+                                Use downloadable PDF reports for tax purposes, project analytics and marketing tools
+                            </span>
+                        </div>
+                        <div class="col-md-12 mt-5">
+                            <!-- <a data-toggle="modal" data-target="#investment-modal" href="">Learn more about our
+                                investment platform -></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TODO: Uncomment when we'll have link to create a new platform -->
+<!--<div class="container text-center">-->
+<!--    <a href="">Create your AMPnet powered investment platform now -></a>-->
+<!--</div>-->
+
+<div class="section padded-section">
+    <div class="container">
+        <div class="row flex-row-reverse" style="overflow-x: hidden">
+            <div data-aos="fade-left" class="col-md-6">
+                <img class="w-100" src="./assets/images/hubgraphic.png" alt="">
+            </div>
+            <div data-aos="fade-right" class="col-md-6 section-offset">
+                <div class="section-subtitle">
+                    AMPnet APX — Supercharge your investments by collaborating with
+                    our global network of investment platforms.
+                </div>
+                <div class="section-content">
+                    <div class="row mt-5 mb-3">
+                        <div class="col-md-12 mb-3">
+                            By building your investment platform through AMPnet — you'll get access to AMPnet APX -
+                            enabling you to co-fund projects with
+                            other AMPnet powered investment communities and enabling your investors to buy & sell
+                            shares of your project with investors from the entire AMPnet ecosystem.
+                        </div>
+                        <div class="col-md-12 d-flex flex-row">
+                            <div class="h-100">
+                                <img src="./assets/images/check.png" alt="" height="14" srcset="">
+                            </div>
+                            <span class="ml-3">
+                                United we stand, divided we fall. Join our vibrant community of people investing in
+                                renewable energy, real-estate, company equity and more.
+                            </span>
+                        </div>
+                        <div class="col-md-12 d-flex flex-row mt-3">
+                            <div class="h-100">
+                                <img src="./assets/images/check.png" alt="" height="14" srcset="">
+                            </div>
+                            <span class="ml-3">
+                                Co-fund projects with other members of AMPnet APX. Share investors, projects,
+                                documents,
+                                legal compliance and much more.
+                            </span>
+                        </div>
+                        <div class="col-md-12 d-flex flex-row mt-3">
+                            <div class="h-100">
+                                <img src="./assets/images/check.png" alt="" height="14" srcset="">
+                            </div>
+                            <span class="ml-3">
+                                Allow your investors to trade their project shares on our central marketplace.
+                            </span>
+                        </div>
+                        <div class="col-md-12 mt-5">
+                            <!-- <a data-toggle="modal" data-target="#investment-modal" href="">Learn more about AMPnet
+                                HUB -></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section padded-section">
+    <div class="container">
+        <div class="row flex-row-reverse">
+            <div class="col-md-6">
+                <img class="w-100" src="./assets/images/before-ampnet-graphic.png" alt="" srcset="">
+            </div>
+            <div class="col-md-6">
+                <div class="section-subtitle">
+                    We'll provide you with a multinational investment legal entity — within a week.
+                </div>
+                <div class="section-content">
+                    <div class="mt-3">
+                        We'll provide you with a legally compliant entity to power
+                        your investment platform — for free. Our platform is based on the
+                        <a href="https://ec.europa.eu/growth/sectors/social-economy/cooperatives/european-cooperative-society_en">
+                            European Cooperative Society(SCE)
+                        </a> legislation and as such provides a simple to use
+                        investment vehicle for all citizens and companies in the EU.
+                    </div>
+                    <div class="mt-3">
+                        We can provide you with the legal documents to open the SCE on your own, or
+                        connect you with our partner law offices which can open it for you in under a week.
+                    </div>
+                    <div class="mt-3">
+                        <img class="mr-2" height="15" src="./assets/images/check.png" alt="" srcset="">
+                        <span>Legally compliant in the entire European Union</span>
+                    </div>
+                    <div class="mt-3">
+                        <img class="mr-2" height="15" src="./assets/images/check.png" alt="" srcset="">
+                        <span>Support for revenue-share, profit-share and equity tokenization models</span>
+                    </div>
+                    <div class="mt-3">
+                        <img class="mr-2" height="15" src="./assets/images/check.png" alt="" srcset="">
+                        <span>Can be opened in any EU member country</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-title mb-5">
+        Build it yourself or use AMPnet?
+    </div>
+    <div class="container">
+        <div class="row flex-row-reverse" style="overflow-x: hidden">
+            <div class="col-md-12 mt-1 mb-1">
+                <hr>
+            </div>
+
+            <div data-aos="fade-left" class="col-md-6">
+                <div class="text-center">AMPnet</div>
+                <div class="section-subtitle">
+                    Quick & affordable
+                </div>
+                <div class="section-content">
+                    <div class="row mt-2 mb-3">
+                        <div class="col-md-6">
+                            <img class="mr-2" src="./assets/images/check.png" alt="" height="14" srcset="">
+                            Get started in 10 minutes
+                        </div>
+                        <div class="col-md-6">
+                            <img class="mr-2" src="./assets/images/check.png" alt="" height="14" srcset="">
+                            Hosting on AMPnet Cloud
+                        </div>
+                        <div class="col-md-6">
+                            <img class="mr-2" src="./assets/images/check.png" alt="" height="14" srcset="">
+                            Start for free
+                        </div>
+                        <div class="col-md-6">
+                            <img class="mr-2" src="./assets/images/check.png" alt="" height="14" srcset="">
+                            Free updates
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-right" class="col-md-6">
+                <div class="text-center">Build it yourself</div>
+                <div class="section-subtitle">
+                    Slow & costly
+                </div>
+                <div class="section-content">
+                    <div class="row mt-2 mb-3">
+                        <div class="col-md-6">
+                            <img class="mr-2" src="./assets/images/forbidden.png" alt="" height="14" srcset="">
+                            Months/years of development
+                        </div>
+                        <div class="col-md-6">
+                            <img class="mr-2" src="./assets/images/forbidden.png" alt="" height="14" srcset="">
+                            High system admin costs
+                        </div>
+                        <div class="col-md-6">
+                            <img class="mr-2" src="./assets/images/forbidden.png" alt="" height="14" srcset="">
+                            Six figure development cost
+                        </div>
+                        <div class="col-md-6">
+                            <img class="mr-2" src="./assets/images/forbidden.png" alt="" height="14" srcset="">
+                            Costly updates
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 mt-1 mb-1">
+                <hr>
+            </div>
+
+            <div data-aos="fade-left" class="col-md-6">
+                <div class="text-center">AMPnet</div>
+                <div class="section-subtitle mt-2">
+                    Become a part of AMPnet APX
+                </div>
+                <div class="section-content">
+                    <div class="row mt-2 mb-3">
+                        <div class="col-md-12">
+                            <img class="mr-2" src="./assets/images/check.png" alt="" height="14" srcset="">
+                            Trade instantly with other AMPnet members
+                        </div>
+                        <div class="col-md-12">
+                            <img class="mr-2" src="./assets/images/check.png" alt="" height="14" srcset="">
+                            Co-fund projects with investment communities from all over Europe
+                        </div>
+                        <div class="col-md-12">
+                            <img class="mr-2" src="./assets/images/check.png" alt="" height="14" srcset="">
+                            Attract traders from AMPnet APX to invest in your projects.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" class="col-md-6">
+                <div class="text-center">Build it yourself</div>
+                <div class="section-subtitle mt-2">
+                    You're on your own
+                </div>
+                <div class="section-content">
+                    <div class="row mt-2 mb-3">
+                        <div class="col-md-12">
+                            <img class="mr-2" src="./assets/images/forbidden.png" alt="" height="14" srcset="">
+                            No cross-platform trading
+                        </div>
+                        <div class="col-md-12">
+                            <img class="mr-2" src="./assets/images/forbidden.png" alt="" height="14" srcset="">
+                            Fund projects on your own. Find investors on your own.
+                        </div>
+                        <div class="col-md-12">
+                            <img class="mr-2" src="./assets/images/forbidden.png" alt="" height="14" srcset="">
+                            Seek investors on your own.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 mt-1 mb-1">
+                <hr>
+            </div>
+
+            <div data-aos="fade-left" class="col-md-6">
+                <div class="text-center">AMPnet</div>
+                <div class="section-subtitle mt-2">
+                    We'll take care of compliance — for free.
+                </div>
+                <div class="section-content pt-2">
+                    <img class="mr-2" src="./assets/images/check.png" alt="" height="14" srcset="">
+                    If you don’t have a legal entity — we’ll help you set up a fully compliant
+                    platform with no extra charge. For certain types of projects, we’ll
+                    provide you with access to our own established legal entity.
+                </div>
+            </div>
+
+            <div data-aos="fade-right" class="col-md-6">
+                <div class="text-center">Build it yourself</div>
+                <div class="section-subtitle mt-2">
+                    Combat regulation & pay lawyers
+                </div>
+                <div class="section-content pt-2">
+                    <img class="mr-2" src="./assets/images/forbidden.png" alt="" height="14" srcset="">
+                    Different countries, different legislation, different legal forms. Starting
+                    up renewable energy funding is often a very confusing process with
+                    many potential traps.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section padded-section" id="our-clients">
+    <div class="section-title">
+        Clients & partners
+    </div>
+    <div class="container">
+        <div id="clients-img-holder" class="row pt-5 text-center">
+            <div class="col-md-3">
+                <img src="./assets/images/gplogo.png" alt="" srcset="">
+            </div>
+            <div class="col-md-3">
+                <img src="./assets/images/genervestlogo.png" alt="" srcset="">
+            </div>
+            <div class="col-md-3">
+                <img src="./assets/images/wespalogo.png" alt="" srcset="">
+            </div>
+            <div class="col-md-3">
+                <img src="./assets/images/zseslogo.png" alt="" srcset="">
+            </div>
+            <div class="col-md-3">
+                <img src="./assets/images/mcclogo.png" alt="" srcset="">
+            </div>
+            <div class="col-md-3">
+                <img src="./assets/images/innoenergylogo.png" alt="" srcset="">
+            </div>
+            <div class="col-md-3">
+                <img src="./assets/images/aeternity.svg" height="100%" alt="" srcset="">
+            </div>
+            <div class="col-md-3">
+                <img src="./assets/images/zeflogo.png" class="mt-3" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="pricing" class="section">
+    <div class="container">
+        <div class="section-title mb-5">Tiers & Pricing</div>
+        <div class="">
+            <div class="">
+                <ul class="nav nav-justified mt-auto" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="free-tier-tab-sel" data-toggle="tab" href="#free-tier-tab"
+                           role="tab" aria-controls="home" aria-selected="true">
+                            Free
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="standard-tier-tab-sel" data-toggle="tab" href="#standard-tier-tab"
+                           role="tab" aria-controls="contact" aria-selected="false">
+                            Standard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="high-volume-tier-tab-sel" data-toggle="tab" href="#high-volume-tier-tab"
+                           role="tab" aria-controls="contact" aria-selected="false">
+                            High Volume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="free-tier-tab" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-md-4 pt-5 text-justify">
+                            If you’re trying to fund smaller projects and create some hype — this is the tier for you!
+                            In this tier, you can fund up to €25,000 in projects.
+                        </div>
+                        <div class="col-md-8 px-5 pt-5 pricing-tiers">
+                            <div class="w-100">
+                                <b>Successful project funding fee</b>
+                                <div class="float-right">0%</div>
+                                <hr>
+                            </div>
+                            <div class="w-100">
+                                <b>Dividend payout fee</b>
+                                <div class="float-right">0%</div>
+                                <hr>
+                            </div>
+                            <div class="w-100">
+                                <b>Marketplace fee (cross-client only)</b>
+                                <div class="float-right">0%</div>
+                                <hr>
+                            </div>
+                            <div class="w-100">
+                                <b>Maintenance *</b>
+                                <div class="float-right">€0 / new user</div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="standard-tier-tab" role="tabpanel" aria-labelledby="home-tab">
+                    <div id="" class="row">
+                        <div class="col-md-4 pt-5 text-justify">
+                            If you want to take your funding to the next level, our standard tier is the choice for you.
+
+                            Fund up to €500,000 in projects & get access to share trading.
+
+                            Standard tier also grants you access to our support team.
+                        </div>
+                        <div class="col-md-8 px-5 pt-5 pricing-tiers">
+                            <div class="w-100">
+                                <b>Successful project funding fee</b>
+                                <div class="float-right">1.5%</div>
+                                <hr>
+                            </div>
+                            <div class="w-100">
+                                <b>Dividend payout fee</b>
+                                <div class="float-right">1.5%</div>
+                                <hr>
+                            </div>
+                            <div class="w-100">
+                                <b>Marketplace fee (cross-client only)</b>
+                                <div class="float-right">1.5%</div>
+                                <hr>
+                            </div>
+                            <div class="w-100">
+                                <b>Maintenance *</b>
+                                <div class="float-right">€1.5 / new user</div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="high-volume-tier-tab" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-md-4 pt-5 text-justify">
+                            If you’re funding more than €500,000 — we’ll drop our fees for funding and revenue share.
+                        </div>
+                        <div class="col-md-8 px-5 pt-5 pricing-tiers">
+                            <div class="w-100">
+                                <b>Successful project funding fee</b>
+                                <div class="float-right">1%</div>
+                                <hr>
+                            </div>
+                            <div class="w-100">
+                                <b>Dividend payout fee</b>
+                                <div class="float-right">1%</div>
+                                <hr>
+                            </div>
+                            <div class="w-100">
+                                <b>Marketplace fee (cross-client only)</b>
+                                <div class="float-right">1.5%</div>
+                                <hr>
+                            </div>
+                            <div class="w-100">
+                                <b>Maintenance *</b>
+                                <div class="float-right">€1.5 / new user</div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-content mt-3">
+                * No recurring payments for active users, just one-time payment for new ones.
+            </div>
+
+            <div class="mt-5 section-subtitle text-center">Already have an investment platform?</div>
+            <div class="section-content mt-3">
+                Integrate your platform into AMPnet APX to trade project shares and co-fund projects with AMPnet
+                members. Integration is 100%
+                free. Contact us at support@ampnet.io to start chatting about integration.
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer">
+    <div class="container pb-5 pt-5">
+        <div class="row pt-5">
+            <div id="company-info" class="col-md-3">
+                <img src="./assets/images/logo-amp.png" height="50" alt="" srcset="">
+                <div class="mt-5">
+                    AMPnet IO d.o.o.
+                </div>
+                <div class="mt-2">
+                    Registered at: Heinzelova ulica 62A, 10000 Zagreb
+                </div>
+                <div class="mt-2">
+                    HQ Office: Josipa Marohnića 3, 10000 Zagreb
+                </div>
+                <div class="mt-2">
+                    OIB: 57624879969
+                </div>
+                <div class="mt-2">
+                    Capital requirement of 20,000kn paid in full
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="mt-4">
+                    <b>Get support</b>
+                </div>
+
+                <div class="mt-4">
+                    <a href="https://drive.google.com/file/d/1CsYnIFpcJnl7qMDcNdprLvph8gzPtD1L/view?usp=sharing">
+                        Privacy policy
+                    </a>
+                </div>
+
+                <div class="mt-3">
+                    <a href="https://drive.google.com/file/d/1TRJZVP0NVP-BxoncIkzdEpstJ4P1m6GP/view?usp=sharing">
+                        Cookies policy
+                    </a>
+                </div>
+
+                <div class="mt-3">
+                    <a href="mailto:support@ampnet.io">
+                        Technical support
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="mt-4">
+                    <b>Follow us</b>
+                </div>
+
+                <div class="mt-4">
+                    <a href="https://twitter.com/ampnetio">Twitter</a>
+                </div>
+
+                <div class="mt-3">
+                    <a href="https://www.facebook.com/ampnetproject/">Facebook</a>
+                </div>
+
+                <div class="mt-3">
+                    <a href="https://www.instagram.com/ampnetio/">Instagram</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="mt-4"><b>Supported by</b></div>
+
+                <div class="mt-4">
+                    <a href="https://www.innoenergy.com/">
+                        <img src="./assets/images/innoenergy.jpg" alt="" height="100" srcset="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- MODALS -->
+<div class="modal fade" id="investment-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content p-5">
+            <div class="modal-body">
+                <div class="row" style="overflow-x: hidden">
+                    <div data-aos="fade-left" class="col-md-12">
+                        <div class="section-subtitle">
+                            Unlock project liquidity through trading
+                        </div>
+                        <div class="section-content">
+                            AMPnet APX connects your investors and your project with various
+                            sources of liquidity.From other AMPnet clients just like you, to large
+                            banks and carbon offsetting schemes — providing liquidity has never
+                            been easier.
+                        </div>
+
+                        <div class="section-subtitle mt-2">
+                            Co-fund projects with other APX members
+                        </div>
+                        <div class="section-content">
+                            AMPnet APX allows you to effortlessly fund project with other APX
+                            members. Collaborate from multiple countries, multiple communities and
+                        </div>
+
+                        <div class="section-subtitle mt-2">
+                            Connect with liquidity providers
+                        </div>
+                        <div class="section-content">
+                            AMPnet platform is powered by blockchain technology. All transactions
+                            are transparent and traceable. All investments are replicated and
+                            information cannot be lost
+                        </div>
+
+                        <div class="section-subtitle mt-2">
+                            Key-in-hand legal compliance
+                        </div>
+
+                        <div class="section-content">
+                            If you don’t have a legal entity — we’ll help you set up a fully compliant
+                            platform with no extra charge. For certain types of projects, we’ll
+                            provide you with access to our own established legal entity.
+                        </div>
+
+                        <div class="section-subtitle mt-2">
+                            Easy integration with existing platforms
+                        </div>
+
+                        <div class="section-content">
+                            Already have a financing platform? Integrate AMPnet through our
+                            developer SDK for JavaScript or our open API. Contact our support to
+                            help you transition.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8264249.js"></script>
+<!-- End of HubSpot Embed Code -->
+</body>
+
+<!-- JS IMPORTS -->
+<script src="./app.js"></script>
+<!-- /JS IMPORTS -->
+
+</html>
