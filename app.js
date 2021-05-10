@@ -26,7 +26,7 @@ new ResizeObserver(entries =>
 
 window.onload = function() {
 
-    if(window.location.href != "https://ampnet.io/apx") {
+    if(window.location.href == "https://ampnet.io/") {
         window.location.href = window.location.href + "apx";
     }
 }
