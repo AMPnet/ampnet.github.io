@@ -22,3 +22,11 @@ $('.navbar-nav>li>a').on('click', function () {
 new ResizeObserver(entries =>
     console.log('Body height changed:', entries[0].target.clientHeight)
 ).observe(document.body)
+
+
+window.onload = function() {
+
+    if(window.location.href != "https://ampnet.io/apx") {
+        window.location.href = window.location.href + "apx";
+    }
+}
